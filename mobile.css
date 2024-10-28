@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+ul {
+    display: none;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    padding-top: 25px;
+    padding-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+
+a:hover {
+    color: red;
+}
+
+.menu {
+    background-color: gray;
+    border: none;
+}
