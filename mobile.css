@@ -7,7 +7,8 @@
 .nav1 {
     display: flex;
     justify-content: space-between;
-    background-color: gray;
+    background-color: rgb(95, 95, 95);
+    position: relative;
 }
 
 ul {
@@ -18,7 +19,7 @@ li {
     display: inline-block;
     list-style: none;
     padding-top: 25px;
-    padding-right: 5px;
+    padding-right: 9px;
 }
 
 a {
@@ -31,6 +32,7 @@ a:hover {
 }
 
 .menu {
-    background-color: gray;
-    border: none;
+    position: absolute;
+    right: 2px;
+    top: 10px
 }
