@@ -3,7 +3,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
+body{
+    height: 100vh;
+    width: 100vw;
+}
 .nav1 {
     display: flex;
     justify-content: space-between;
@@ -25,9 +28,9 @@ li {
 
 a {
     text-decoration: none;
-    color:cornsilk;
+    color: cornsilk;
     text-decoration: solid;
-    font-family:monospace;
+    font-family: monospace;
 }
 
 a:hover {
@@ -40,10 +43,10 @@ a:hover {
     top: 15px
 }
 
-#searchi{
+#searchi {
     position: absolute;
     border: none;
-    border-bottom:solid 1px;
+    border-bottom: solid 1px;
     border-right: solid 1px;
     /* border-left: double; */
     background-color: inherit;
@@ -51,9 +54,48 @@ a:hover {
     right: 31%;
 }
 
-.searchi{
+.searchi {
     position: absolute;
     bottom: 5.3px;
     /* right: 62.5%; */
-    right: 67.2%;
+    right: 65.9%;
 }
+
+.slidd {
+    display: flex;
+    /* max-width: 100%; */
+    width: 100vw;
+    overflow-x: scroll;
+    position: absolute;
+    bottom: 0px;
+    height: 150px;
+
+    /* height: 387px; */
+
+
+}
+.imgd{
+    width: 100%;
+    padding-right: 50px;
+    max-width: 2000px;
+}
+
+.movement{
+    position: relative;
+    height: 30vh;
+    width: 100vw;
+}
+
+/* 
+ .newText{ 
+    padding: 50px;
+    color: black;
+    font-size: 35px;
+}  */
+/* .sep{
+    height: 390px;
+    display: flex;
+    justify-content: space-between;
+    background-color:beige;
+    position: relative;
+} */
