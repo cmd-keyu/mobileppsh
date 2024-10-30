@@ -10,12 +10,10 @@ menu.addEventListener("click", () =>{
         opens.style.display= "none";
         ul.style.display = "inline-flex";
         search.style.display = "none"
-        search1.style.display = "none"
     }else{
         closes.style.display = "none";
         opens.style.display= "inherit";
         ul.style.display = "none";
         search.style.display = "inherit"
-        search1.style.display = "inherit"
     }
 });
