@@ -35,15 +35,3 @@ menu2.addEventListener("click", () => {
         search2.style.display = "inherit"
     }
 })
-
-document.querySelectorAll('.new-products img').forEach((img) => {
-    img.onload = function() {
-      if (img.naturalWidth / img.naturalHeight < 1) { 
-        // Adjust aspect ratio condition as needed
-        img.style.objectFit = 'contain';
-      } else {
-        img.style.objectFit = 'cover';
-      }
-    };
-  });
-  
