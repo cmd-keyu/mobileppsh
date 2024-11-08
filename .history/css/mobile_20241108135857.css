@@ -178,7 +178,7 @@
     }
 
     .bbh {
-        background-image: url(../images/cereal/cereal1.avif), url(../images/cereal/cereal3.avif);
+        background-image: url(../), url(images/cereal/cereal3.avif);
         background-repeat: no-repeat, no-repeat;
         background-size: 50%, 50%;
         width: 100%;
@@ -215,7 +215,7 @@
 
 
     .bbh2 {
-        background-image: url(../images/makeup/download.jpeg);
+        background-image: url(images/makeup/download.jpeg);
         background-repeat: no-repeat;
         background-size: 50%;
         height: 100px;
@@ -232,7 +232,7 @@
     }
 
     .bbh3 {
-        background-image: url(../images/gaming/gaming0.jpeg);
+        background-image: url(images/gaming/gaming0.jpeg);
         background-repeat: no-repeat;
         background-size: 50%;
         height: 100px;
@@ -249,7 +249,7 @@
     }
 
     .bbh4 {
-        background-image: url(../images/diary/dairy1.avif);
+        background-image: url(images/diary/dairy1.avif);
         background-repeat: no-repeat;
         background-size: 130px;
         height: 100px;
@@ -266,7 +266,7 @@
     }
 
     .bbh5 {
-        background-image: url(../images/toys/toy5.jpeg);
+        background-image: url(images/toys/toy5.jpeg);
         background-repeat: no-repeat;
         background-size: 150px;
         height: 100px;
@@ -283,7 +283,7 @@
     }
 
     .bbh6 {
-        background-image: url(../images/kids/kids0.jpeg);
+        background-image: url(images/kids/kids0.jpeg);
         background-repeat: no-repeat;
         background-size: 175px;
         height: 100px;
