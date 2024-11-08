@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In Form</title>
+  <link rel="stylesheet" href="../c">
+  <script src="../javascript/login.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="glow-box">
+      <h2 style="color: white;">Sign in or Sign Up</h2>
+      <br>
+      <!-- <p>All that is required is only your email for sign-up or sign-in!!</p> -->
+      <form action="4.html">
+        <div class="sign-up">
+            <input type="text" placeholder="name" class="disabled-btn">
+            <br>
+            <br>
+            <input type="text" placeholder="address (Optional)">
+            <br>
+            </div>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="password" required>
+        <button type="submit" class="sign-in-btn-hide">Sign in</button>
+        <button type="submit" class="sign-up-btn-hide">Sign up</button>
+      </form>
+      <div class="support">
+        <p class="sign-up-text-hide">Don't have an account? <label for="sign-up-btn" class="colorsnup">sign up</label><button class="sign-up-btn hide-btn2" id="sign-up-btn">sign up</button></p>
+        <p class="sign-in-text-hide">Already have an account? <label for="sign-in-btn" class="colorsnup">sign in</label><button class="sign-in-btn hide-btn2" id="sign-in-btn">sign in</button></p>
+        <p>Forgot your email? <a href="#">Contact support</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
