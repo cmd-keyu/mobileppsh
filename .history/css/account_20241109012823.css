@@ -1,0 +1,160 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  width: 100%;
+  height: 70px;
+}
+
+.nav2 {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+}
+
+ul {
+  display: none;
+  margin-top: 30px;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 13px;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: black;
+
+}
+
+.firsta {
+
+  color: beige;
+  text-decoration: solid;
+  font-family: monospace;
+}
+
+a:hover {
+  color: red;
+}
+
+.menu {
+  position: absolute;
+  right: 2px;
+  top: 15px
+}
+
+#search {
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 5%;
+  border: none;
+  background-color: inherit;
+  border-bottom: solid 1px;
+}
+
+.searchh {
+  position: absolute;
+  left: 20%;
+  top: 4.9%;
+}
+
+.whole_account {
+  display: flex;
+}
+
+.account-sidebar {
+  width: 40vw;
+  height: 100vh;
+  background-color: gray;
+  border: solid rgba(0, 0, 0, 0.12) 1px;
+  display: none;
+  /* color:rgb(130, 107, 78); */
+}
+
+.disbtn {
+  display: none;
+}
+
+.dispdiv0 {
+  display: none;
+}
+
+.sidebar_opens {
+  border-top: solid black 1px;
+  height: 11%;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  background-color: lightgrey;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  
+}
+
+.sidebar_opens2 {
+  border-top: solid black 1px;
+  height: 11%;
+  width: 100%;
+  text-align: center;
+  padding-top: 8.5px;
+  background-color: lightgrey;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  
+}
+
+.lable {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+
+
+
+footer p{
+  padding-left: 10px;
+}
+
+footer h2{
+  padding-left: 5px;
+}
+
+.footup{
+     text-align: center;
+     /* border: 1px solid rgb(7, 7, 89); */
+     background-color:rgb(2, 2, 31); 
+     padding: 10px;
+     border-bottom: 1px solid wheat;
+
+}
+
+.ff2{
+
+  background-color: rgb(4, 4, 60);
+}
+
+.ff1{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.ff1 a {
+  /* text-decoration: none; */
+  color: aliceblue;
+  font-size: 17px;
+  margin-left: 10px;
+}
