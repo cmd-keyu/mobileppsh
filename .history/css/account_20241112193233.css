@@ -180,9 +180,11 @@ footer h2{
 }
 
 
-.move_input{
-  margin-left: 15%;
-}
+/* .move_input{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+} */
 
 .hi{
   text-align: center;

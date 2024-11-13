@@ -181,7 +181,9 @@ footer h2{
 
 
 .move_input{
-  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
 }
 
 .hi{
