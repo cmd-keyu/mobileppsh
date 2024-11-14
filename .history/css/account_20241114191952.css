@@ -1,0 +1,459 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  width: 100%;
+  height: 70px;
+}
+
+body {
+  background: radial-gradient(circle, gray, black), no-repeat;
+  height: 100vh;
+}
+
+.nav2 {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+}
+
+ul {
+  display: none;
+  margin-top: 30px;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 13px;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: black;
+
+}
+
+.firsta {
+
+  color: beige;
+  text-decoration: solid;
+  font-family: monospace;
+}
+
+a:hover {
+  color: red;
+}
+
+.menu {
+  position: absolute;
+  right: 2px;
+  top: 15px
+}
+
+#search {
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 5%;
+  border: none;
+  background-color: inherit;
+  border-bottom: solid 1px;
+}
+
+.searchh {
+  position: absolute;
+  left: 20%;
+  top: 4.9%;
+}
+
+.whole_account {
+  display: flex;
+  /* margin-bottom: 60px; */
+}
+
+.account-sidebar {
+  width: 40vw;
+  height: 100vh;
+  /* background-color: gray; */
+  /* border: solid rgba(0, 0, 0, 0.12) 1px; */
+  display: none;
+  /* position: fixed; */
+  /* left: 0; */
+
+}
+
+.disbtn {
+  display: none;
+}
+
+.dispdiv0 {
+  display: none;
+}
+
+.sidebar_opens {
+  border-top: solid gray 5px;
+  height: 11%;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  background-color: lightgrey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+
+}
+
+.sidebar_opens2 {
+  border-top: solid gray 5px;
+  height: 11%;
+  width: 100%;
+  text-align: center;
+  padding-top: 8.5px;
+  background-color: lightgrey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+
+}
+
+.lable {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+/* 
+footer{
+  position: fixed;
+  bottom: 0px;
+} */
+
+footer p {
+  padding-left: 10px;
+}
+
+footer h2 {
+  padding-left: 5px;
+}
+
+.footup {
+  text-align: center;
+  background-color: rgb(2, 2, 31);
+  padding: 10px;
+  border-bottom: 1px solid wheat;
+
+}
+
+.ff2 {
+
+  background-color: rgb(4, 4, 60);
+}
+
+.ff1 {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.ff1 a {
+  /* text-decoration: none; */
+  color: aliceblue;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.dispdiv1 {
+  margin-top: 35px;
+}
+
+.profile_text0 {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+
+.move_input {
+  margin-top: 30px;
+  margin-left: 15.5%;
+}
+
+.hi {
+  text-align: center;
+  border: none;
+  width: 70vw;
+  border-radius: 15px;
+  height: 50px;
+  background-color: inherit;
+  border-bottom: solid beige 1px;
+  box-shadow: 9px 9px 20px beige;
+  color: white;
+
+}
+
+.myorders_topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.opoh {
+  height: 10vh;
+  border: solid white 0.1px;
+  width: 50vw;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: large;
+}
+
+.ordertime {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 10vh;
+  text-align: left;
+  padding: 10px;
+}
+
+.product-container {
+  display: flex;
+  overflow-x: scroll;
+  height: fit-content;
+  overflow-y: hidden;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-bottom: solid black 1px;
+  border-top: solid black 1px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 45%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin: 5px;
+  box-shadow: 2px 2px 100px black;
+  /* height: fit-content; */
+}
+
+.new-products {
+  text-decoration: none;
+  color: black;
+  display: block;
+  height: 100%;
+}
+
+.new-products img {
+  display: flex;
+  object-fit: cover;
+  flex-shrink: 1;
+  height: 75%;
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+.recent_cancelled {
+  display: none;
+}
+
+.product-container {
+  display: none;
+}
+
+.cardside {
+  background-color: inherit;
+  border: solid black 2px;
+  height: 30vh;
+}
+
+.addmoney {
+  width: 100vw;
+  background-color: whitesmoke;
+  height: 5vh;
+  border: solid black 1px;
+}
+
+.cardside0 {
+  position: relative;
+  background-color: inherit;
+  border: solid silver 1px;
+  width: 90vw;
+  height: 30vh;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  box-shadow: -2px 2px 50px white;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: monospace;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+
+}
+
+.cardside h1 {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+.addmoney {
+  width: 100vw;
+  background-color: black;
+  height: 5vh;
+  border: solid white 1px;
+  font-size: large;
+  font-family: monospace;
+  color: white;
+
+}
+
+.transhist {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.trnshtt {
+  display: flex;
+  justify-self: center;
+  width: fit-content;
+  border-bottom: solid white 1px;
+  color: lightgray;
+  margin-bottom: 15px;
+}
+
+.bitcoin {
+  position: absolute;
+  left: 1px;
+  height: 80%;
+  border-radius: 100px;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+
+.acctrnsh {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: inherit;
+  height: 40vh;
+  font-family: monospace;
+}
+
+.f1trsn {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  width: 100vw;
+  height: 10vh;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.f1trsn p {
+  position: absolute;
+  right: 10%;
+  /* margin-left: 50%; */
+}
+
+.indiv {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 18%;
+  margin-top: 7px
+}
+
+.payment_methods {
+  color: wheat;
+  background-color: black;
+  text-align: center;
+  margin-top: 20px;
+  width: 100vw;
+  height: 5vh;
+}
+
+.apm {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  border: solid wheat;
+  background-color: black;
+  color: wheat;
+  height: 5vh;
+}
+
+#myVideo {
+  position: absolute;
+  width: 90vw;
+  height: 30vh;
+  object-fit: cover;
+  z-index: -1;
+  border-radius: 15px;
+}
+
+.faq1 {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 10vh;
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Faqcont {
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  width: 95%;
+  height: 15vh;
+  margin-bottom: 5px;
+  display: none;
+}
+
+
+@media ((width > 320px)) {
+  .f1trsn p {
+    position: absolute;
+    right: 5%;
+  }
+
+  .indiv {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 23%;
+    margin-top: 7px;
+    font-size: 20px;
+  }
+
+
+}

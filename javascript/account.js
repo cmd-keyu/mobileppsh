@@ -38,6 +38,18 @@ const product_containerdisp2 = document.querySelector(".product_containerdisp2")
 const product_containerdisp3 = document.querySelector(".product_containerdisp3")
 const product_containerdisp4 = document.querySelector(".product_containerdisp4")
 const product_container = document.querySelector(".product-container")
+const faq1 = document.querySelector(".faq1")
+const faq11 = document.querySelector(".faq11")
+const faq12 = document.querySelector(".faq12")
+const faq13 = document.querySelector(".faq13")
+const faq14 = document.querySelector(".faq14")
+const Faqdisp1 = document.querySelector(".Faqdisp1")
+const Faqdisp2 = document.querySelector(".Faqdisp2")
+const Faqdisp3 = document.querySelector(".Faqdisp3")
+const Faqdisp4 = document.querySelector(".Faqdisp4")
+const Faqcont = document.querySelector(".Faqcont")
+
+
 menu.addEventListener("click", () => {
 
   if (menu.checked) {
@@ -105,16 +117,6 @@ ordertime4.addEventListener("click", () => {
   product_containerdisp4.style.display = "flex"
   ordertime.focus();
 })
-
-// ordertime.addEventListener("blur", function () {
-//   setTimeout(() => {
-//     if (document.activeElement !== ordertime2) {
-//       product_container.style.display = "none";
-//     }
-//   }, 0);
-// })
-
-
 
 dispbtn1.addEventListener("click", () => {
   dispdiv1.style.display = 'block'
@@ -205,6 +207,38 @@ dispbtn8.addEventListener("click", () => {
   dispdiv8.style.display = 'block'
 })
 
+faq11.addEventListener("click", () => {
+  Faqdisp1.style.display = "flex"
+  Faqdisp2.style.display = "none"
+  Faqdisp3.style.display = "none"
+  Faqdisp4.style.display = "none"
+  faq1.focus();
+})
+
+faq12.addEventListener("click", () => {
+  Faqdisp1.style.display = "none"
+  Faqdisp2.style.display = "flex"
+  Faqdisp3.style.display = "none"
+  Faqdisp4.style.display = "none"
+  faq1.focus();
+})
+
+faq13.addEventListener("click", ( )=> {
+  Faqdisp1.style.display = "none"
+  Faqdisp2.style.display = "none"
+  Faqdisp3.style.display = "flex"
+  Faqdisp4.style.display = "none"
+  faq1.focus();
+})
+
+faq14.addEventListener("click", () => {
+  Faqdisp1.style.display = "none"
+  Faqdisp2.style.display = "none"
+  Faqdisp3.style.display = "none"
+  Faqdisp4.style.display = "flex"
+  faq1.focus();
+})
+
 function makeEditable(label, input, saveButton) {
   let originalValue = input.value;
 
@@ -241,7 +275,6 @@ function makeEditable(label, input, saveButton) {
   });
 }
 
-// Initialize the function for each editable input group
 document.querySelectorAll(".editable-input").forEach((div) => {
   const label = div.querySelector("label");
   const input = div.querySelector("input");
